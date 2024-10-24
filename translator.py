@@ -13,10 +13,12 @@ def translation_menu():
     # Taking user input for source and destination languages
     src_lang = input("Enter source language code: ").strip()
     dest_lang = input("Enter target language code: ").strip()
-    
+   
     # Taking user input for the text to be translated
     text = input("Enter text to translate: ").strip()
-    print('Input text ',text)
+    print('Entered source language :',src_lang)
+    print('Entered target language :',dest_lang)
+    print('Input text :',text)
 
     if src_lang and dest_lang and text:
         try:
